@@ -1,0 +1,21 @@
+h3{
+    color: green;
+}
+ul>li {
+    color: green;
+}
+li{
+    list-style:none;
+}
+div{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color:rgba(168, 218, 177, 0.673);
+
+}

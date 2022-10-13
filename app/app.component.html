@@ -1,0 +1,7 @@
+<div>
+<h3>App component</h3>
+<p>Current Number: <span>{{randomNUmber}}</span></p>
+<app-game-control (intervalFired)="selectNumber($event)"></app-game-control>
+<app-even [currentEvenNumber]="randomNUmber" [evenArrayC]="evenArray"></app-even>
+<app-odd [currentOddNumber]="randomNUmber" [oddArrayC]="oddArray"></app-odd>
+</div>

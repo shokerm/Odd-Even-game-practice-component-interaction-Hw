@@ -1,0 +1,19 @@
+
+h3{
+    color: blue;
+}
+button{
+    color: blue;
+}
+div{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color:rgba(114, 114, 222, 0.673);
+
+}
